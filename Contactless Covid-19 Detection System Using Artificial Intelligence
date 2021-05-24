@@ -1,0 +1,18 @@
+Title: Contactless Covid-19 Detection System Using Artificial Intelligenge
+
+Description: Diagnosing SAR-COV-2 patients in the early stage in domestic settings is possible through a system that can classify audio input of coughs and also classify the chest and lung x-rays along with body temperature and determine whether they are SAR-COV-2 infected or not. Research is currently scant in this area and data is difficult to obtain and collect.
+However, a few small data collection projects have enabled audio classification research and development possible with the application of different machine learning classification algorithms, including Convolution Neural Networks (CNN) and Support Vector Machines (SVM).
+This System focuses on how accurately we can detect COVID-19 with the help of simple electronic components and sensors with accuracy with a range of 80-95%. The work here provides a symbol of the concept that prime accuracy is often achieved with a little dataset, which can have a significant impact in this area. The results are highly encouraging and provide further opportunities for research.
+
+Software Requirements:
+
+    1. Python (Version 3.7.0)
+    2. Python Libraries : Tkinter, Librosa, Mathplot, Scipy, Sound-Device, opencv, numpy, pdf_mail, datetime, time, math, os, shutil, subprocess, JSON, TensorFlow, Keras.
+    
+Process Flow:
+    1. Login Into the Software : CovInfo
+    2. Enter The Patient Details
+    3. Insert the PNG Image of the Digital X-ray ( Dimension 299x299 )
+    4. Record the cough audio sound from the Laptop Microphone or external Microphone
+    5. Get the Fetch Result as PDF or at the inserted mail id
+    
