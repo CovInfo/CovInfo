@@ -29,13 +29,13 @@ def Print():
 def mail():
     # Taking input of following values
     # ex-"abcd@gmail.com"
-    sender_email_address = "covinfo2021@gmail.com"
+    sender_email_address = "your mail id"
 
     # ex-"xyz@gmail.com"
     receiver_email_address = str(Email)
 
     # ex-" abcd1412"
-    sender_email_password = "negoenzarpebmenj"
+    sender_email_password = "your password"
 
     # ex-"Heading of email"
     subject_of_email = "SARS-CoV-2 Report"
